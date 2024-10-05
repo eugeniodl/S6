@@ -131,6 +131,7 @@
             btnCalcular.TabIndex = 9;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // lblResultado
             // 
@@ -150,6 +151,7 @@
             btnMostrarProductos.TabIndex = 11;
             btnMostrarProductos.Text = "Mostrar Productos";
             btnMostrarProductos.UseVisualStyleBackColor = true;
+            btnMostrarProductos.Click += btnMostrarProductos_Click;
             // 
             // Form1
             // 
